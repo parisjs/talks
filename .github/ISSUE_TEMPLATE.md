@@ -1,6 +1,6 @@
-## Mon titre
+## Titre de la présentation
 
-*Talk format :* Long / Short
+*Talk format :* Long (20 min) / Short (5 min)
 
 *Description :*
 
