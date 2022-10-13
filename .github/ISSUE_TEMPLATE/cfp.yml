@@ -5,7 +5,7 @@ assignees:
   - bloodyowl
   - Freddy03h
 body:
- - type: dropdown
+  - type: dropdown
     id: format
     attributes:
       label: Format
@@ -29,10 +29,17 @@ body:
       description: Les slides de votre talk (si vous les avez déjà)
     validations:
       required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: Autre
+      description: Si vous avez des précisions à ajouter ou des questions, c'est ici
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
-        ## Pour vous contacter
+        # Pour vous contacter
 
         Pensez bien à activer les notifications sur cette issue!
   - type: input
@@ -47,12 +54,5 @@ body:
     attributes:
       label: Email
       description: Votre email (attention, il sera public dans le corps de l'issue)
-    validations:
-      required: false
-  - type: textarea
-    id: other
-    attributes:
-      label: Autre
-      description: Si vous avez des précisions à ajouter ou des questions, c'est ici
     validations:
       required: false
