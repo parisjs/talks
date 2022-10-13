@@ -1,0 +1,73 @@
+name: 💬 CFP
+description: Proposer un talk.
+labels: [cfp]
+assignees:
+  - bloodyowl
+  - Freddy03h
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Votre talk
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: Combien de temps dure votre talk?
+      options:
+        - Long (20 minutes)
+        - Lightning (5 minutes)
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Titre
+      description: Le titre de votre talk
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: De quoi parle votre talk (en quelques lignes)?
+    validations:
+      required: true
+  - type: input
+    id: slides
+    attributes:
+      label: Lien vers vos slides
+      description: Les slides de votre talk (si vous les avez déjà)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Pour vous contacter
+
+        Pensez bien à activer les notifications sur cette issue!
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter
+      description: Votre compte Twitter
+    validations:
+      required: false
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Votre email (attention, il sera public dans le corps de l'issue)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Autre
+  - type: textarea
+    id: other
+    attributes:
+      label: Autre
+      description: Si vous avez des précisions à ajouter ou des questions, c'est ici
+    validations:
+      required: true
