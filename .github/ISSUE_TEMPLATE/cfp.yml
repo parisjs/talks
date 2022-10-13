@@ -1,5 +1,5 @@
 name: 💬 CFP
-description: Proposer un talk.
+description: Proposer un talk. Les meetups Paris.JS ont lieu le dernier Mercredi de chaque mois.
 labels: [cfp]
 assignees:
   - bloodyowl
@@ -43,7 +43,7 @@ body:
 
         Les champs suivants sont optionnels peuvent nous aider à vous joindre.
 
-        Dans tous les cas, pensez bien à activer les notifications sur cette issue!
+        Dans tous les cas, **pensez bien à activer les notifications sur cette issue**!
   - type: input
     id: twitter
     attributes:
