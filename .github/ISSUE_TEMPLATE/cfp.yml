@@ -70,4 +70,4 @@ body:
       label: Autre
       description: Si vous avez des précisions à ajouter ou des questions, c'est ici
     validations:
-      required: true
+      required: false
