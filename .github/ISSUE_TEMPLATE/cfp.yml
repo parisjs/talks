@@ -5,11 +5,7 @@ assignees:
   - bloodyowl
   - Freddy03h
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Votre talk
-  - type: dropdown
+ - type: dropdown
     id: format
     attributes:
       label: Format
@@ -17,13 +13,6 @@ body:
       options:
         - Long (20 minutes)
         - Lightning (5 minutes)
-    validations:
-      required: true
-  - type: input
-    id: title
-    attributes:
-      label: Titre
-      description: Le titre de votre talk
     validations:
       required: true
   - type: textarea
@@ -60,10 +49,6 @@ body:
       description: Votre email (attention, il sera public dans le corps de l'issue)
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Autre
   - type: textarea
     id: other
     attributes:
