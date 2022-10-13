@@ -41,7 +41,9 @@ body:
       value: |
         # Pour vous contacter
 
-        Pensez bien à activer les notifications sur cette issue!
+        Les champs suivants sont optionnels peuvent nous aider à vous joindre.
+
+        Dans tous les cas, pensez bien à activer les notifications sur cette issue!
   - type: input
     id: twitter
     attributes:
