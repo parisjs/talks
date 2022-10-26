@@ -1,6 +1,18 @@
 name: 💬 CFP
 description: Proposer un talk. Les meetups Paris.JS ont lieu le dernier Mercredi de chaque mois.
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Guidelines
+        
+        Lorsque vous présentez votre talk:
+
+        - Respectez le [Code de Conduite](https://parisjs.org/code-of-conduct)
+        - Soyez pédagogue
+        - Utilisez un language inclusif (pas de validisme, de sexisme)
+          - https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+          - https://geekfeminism.fandom.com/wiki/Nonsexist_language
   - type: dropdown
     id: format
     attributes:
